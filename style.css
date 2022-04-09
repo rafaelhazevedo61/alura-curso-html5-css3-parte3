@@ -3,13 +3,15 @@
 
 header {
     background: #BBBBBB;
-    padding: 20px 0; /*20px pra cima e pra baixo e 0 pra esquerda e pra direita*/
+    padding: 20px 0;
+    /*20px pra cima e pra baixo e 0 pra esquerda e pra direita*/
 }
 
 .caixa {
     position: relative;
     width: 940px;
-    margin: 0  auto;/*pra cima e pra baixo seja 0 e pra direita e pra esquerda se definam automaticamente */
+    margin: 0 auto;
+    /*pra cima e pra baixo seja 0 e pra direita e pra esquerda se definam automaticamente */
 }
 
 nav {
@@ -21,7 +23,8 @@ nav {
 /*Todos os itens da lista(li) que estão dentro da tag de navegação*/
 nav li {
     display: inline;
-    margin: 0 0 0 15px; /*1º-topo, 2º-direita, 3º-baixo, 4º-esquerda*/
+    margin: 0 0 0 15px;
+    /*1º-topo, 2º-direita, 3º-baixo, 4º-esquerda*/
 }
 
 /*Todos os links da nossa navegação estejam em maíusculo*/
@@ -71,7 +74,8 @@ nav a:hover {
     border-color: #088C19;
 }
 
-.produtos li:hover h2 { /*quero que ao passar o mouse em cima do h2 que está dentro do li*/
+.produtos li:hover h2 {
+    /*quero que ao passar o mouse em cima do h2 que está dentro do li*/
     font-size: 34px;
 }
 
@@ -113,15 +117,20 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label,
+form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input {
+.input-padrao{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
